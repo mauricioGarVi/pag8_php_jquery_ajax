@@ -1,0 +1,141 @@
+h6 {
+    font-family: "Lato", sans-serif;
+    color: #FCFCFD;
+    }
+h4, h6{
+  height: 100%;
+  width: 100%;
+}
+
+/*Asignamos un 100 y 100 para hacer mas responsive*/
+
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*Header del html*/
+
+.logo-fesc{
+    width: 8%;
+    height: 80%;
+    float: left;
+    vertical-align: left;
+    margin-right: 30px;
+}
+.logo-unam{
+    width: 8%;
+    height: 80%;
+    float: right;
+    margin-left: 30px;
+}
+
+header{
+    height: 12%;
+    width: 100%;
+    background-color: #34495e ;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-cont{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*contenedor del menu NAV*/
+nav{
+	display: flex;
+	background: #287e64;
+  height: 8%;
+  width: 100%;
+  text-align: center;
+  background-color: #287e64;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+	list-style: none;
+	margin:auto;
+	background-color: black;
+	color: white;
+	width: 100px;
+	text-align: center;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+li:hover{
+	list-style: none;
+	margin:auto;
+	background-color: #d7be14;
+	color: black;
+	width: 100px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+.content{
+    background-color: #34495e ;
+    margin: 0px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+section{
+  background-color: #fff ;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+aside{
+  background-color: #4f9d61;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont{
+  display: flex;
+  width: 100%;
+  height: 80%;
+  flex-flow: row wrap;
+  overflow: auto;
+}
+
+.contt{
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+    background-color: #10171E;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
